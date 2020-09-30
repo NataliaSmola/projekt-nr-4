@@ -1,15 +1,12 @@
-.navbar {
-  border: 1px solid blue;
-}
-
 .navbar .navbar-brand {
   font-family: "Playball", cursive;
   color: #f39c12;
   font-size: 35px;
+  margin-left: 10%;
 }
 
 .navbar .nav-link {
-  color: black;
+  color: white;
   font-size: 15px;
   text-transform: uppercase;
   font-family: "Libre Baskerville", serif;

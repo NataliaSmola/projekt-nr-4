@@ -7,20 +7,19 @@ $color-light: #7f8c8d;
 
 .navbar {
 
-border: 1px solid blue;
+
   .navbar-brand {
 		font-family: $font-title;
 		color: $color-main;
 		font-size: 35px;
+
+		margin-left: 10%;
 	}
 	.nav-link {
-		color: black;
+		color: white;
 		font-size: 15px;
 		text-transform: uppercase;
 		font-family: $font-header;
-
-
-
 	}
 }
 
