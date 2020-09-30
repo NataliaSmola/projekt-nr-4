@@ -84,4 +84,17 @@ padding: 15px;
 }
 .card {
 	border-style: none;
+	 h5 {
+		 font-family: $font-header;
+	 }
+	 p {
+		 font-size: 15px;
+		 color: $color-light;
+	 }
+}
+/*Portfolio*/
+.card-img-top {
+	width: 20rem;
+	height: 20rem;
+	object-fit: cover;
 }

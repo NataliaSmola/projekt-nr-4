@@ -92,4 +92,20 @@
 .card {
   border-style: none;
 }
+
+.card h5 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.card p {
+  font-size: 15px;
+  color: #7f8c8d;
+}
+
+/*Portfolio*/
+.card-img-top {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
