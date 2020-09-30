@@ -1,3 +1,7 @@
+.navbar {
+  position: absolute;
+}
+
 .navbar .navbar-brand {
   font-family: "Playball", cursive;
   color: #f39c12;
@@ -10,6 +14,10 @@
   font-size: 15px;
   text-transform: uppercase;
   font-family: "Libre Baskerville", serif;
+}
+
+.nav-link:hover {
+  background-color: #f39c12;
 }
 
 .carousel-inner .carousel-item {
@@ -60,6 +68,10 @@
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
   padding: 10px 30px;
+}
+
+.carousel-caption .btn:hover {
+  background-color: black;
 }
 
 .row {
@@ -123,4 +135,6 @@
   border-radius: 50%;
   padding: 10px;
 }
+
+/*Media*/
 /*# sourceMappingURL=style.css.map */
