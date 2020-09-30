@@ -60,3 +60,18 @@ $color-light: #7f8c8d;
 				padding: 10px 30px
 			}
 }
+.row {
+	justify-content: center;
+	  h2 {
+			text-align: center;
+			font-family: $font-header;
+			font-size: 40px;
+			text-transform: uppercase;
+		}
+		p {
+			text-align: center;
+			font-family: $font-text;
+			font-size: 16px;
+			color: $color-light;
+		}
+}
