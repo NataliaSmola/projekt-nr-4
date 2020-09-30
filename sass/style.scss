@@ -75,3 +75,13 @@ $color-light: #7f8c8d;
 			color: $color-light;
 		}
 }
+.card-body i {
+border: 3px solid $color-main;
+color: $color-main;
+font-size: 40px;
+border-radius: 50%;
+padding: 15px;
+}
+.card {
+	border-style: none;
+}
