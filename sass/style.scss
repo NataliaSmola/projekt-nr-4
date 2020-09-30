@@ -1,0 +1,59 @@
+$font-text: 'Playfair Display', serif;
+$font-title: 'Playball', cursive;
+$font-header: 'Libre Baskerville', serif;
+$color-main: #f39c12;
+$color-light: #7f8c8d;
+
+
+.navbar {
+
+border: 1px solid blue;
+  .navbar-brand {
+		font-family: $font-title;
+		color: $color-main;
+		font-size: 35px;
+	}
+	.nav-link {
+		color: black;
+		font-size: 15px;
+		text-transform: uppercase;
+		font-family: $font-header;
+
+
+
+	}
+}
+
+.carousel-inner .carousel-item {
+    height: 100vh;
+		min-height: 300px;
+}
+.carousel-item img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.carousel-caption {
+	  padding: 0 20px;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+		  h5 {
+				font-family: $font-text;
+				font-size: 40px;
+			}
+			p {
+				font-family: $font-header;
+				font-size: 60px;
+				text-transform: uppercase;
+			}
+			.btn {
+				background-color: $color-main;
+				text-transform: uppercase;
+				font-family: $font-header;
+				font-size: 18px;
+				padding: 10px 30px
+			}
+}

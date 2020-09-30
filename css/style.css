@@ -1,0 +1,55 @@
+.navbar {
+  border: 1px solid blue;
+}
+
+.navbar .navbar-brand {
+  font-family: "Playball", cursive;
+  color: #f39c12;
+  font-size: 35px;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+}
+
+.carousel-inner .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  padding: 0 20px;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+.carousel-caption p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.carousel-caption .btn {
+  background-color: #f39c12;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=style.css.map */
