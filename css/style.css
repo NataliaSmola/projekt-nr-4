@@ -3,7 +3,7 @@
 }
 
 .navbar-toggler-icon {
-  color: white;
+  background-color: white;
 }
 
 .navbar .navbar-brand {
@@ -178,6 +178,12 @@
   }
   .footer p {
     font-size: 12px;
+  }
+  .carousel-caption p {
+    font-size: 40px;
+  }
+  .carousel-caption h5 {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

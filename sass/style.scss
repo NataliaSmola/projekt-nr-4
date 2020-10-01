@@ -8,7 +8,7 @@ $color-light: #7f8c8d;
 	position: absolute;
 }
 .navbar-toggler-icon {
-	color: white;
+	background-color: white;
 }
 .navbar .navbar-brand {
 	font-family: $font-title;
@@ -157,4 +157,11 @@ padding: 15px;
 .footer p {
 	font-size: 12px;
 }
+.carousel-caption p {
+	font-size: 40px;
+}
+.carousel-caption h5 {
+	font-size: 30px;
+}
+
 }
