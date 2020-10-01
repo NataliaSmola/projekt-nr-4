@@ -7,6 +7,9 @@ $color-light: #7f8c8d;
 .navbar {
 	position: absolute;
 }
+.navbar-toggler-icon {
+	color: white;
+}
 .navbar .navbar-brand {
 	font-family: $font-title;
 	color: $color-main;
@@ -106,7 +109,19 @@ padding: 15px;
 	height: 20rem;
 	object-fit: cover;
 }
+.card-img-top:hover{
+	background-color: black;
+}
+.card:hover img {
+	background-color: black;
+	position: relative;
+}
 /*footer*/
+.footer ul {
+	margin-left: 55px;
+	max-width: 100%;
+}
+
 .footer li {
 	list-style: none;
 	display: inline-block;
@@ -119,8 +134,10 @@ padding: 15px;
 			 padding: 10px;
      }
 }
-/*Media*/
 @media (max-width: 767px) {
-
-
+.footer ul {
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
 }
