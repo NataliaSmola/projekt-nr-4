@@ -1,7 +1,7 @@
 $font-text: 'Playfair Display', serif;
 $font-title: 'Playball', cursive;
 $font-header: 'Libre Baskerville', serif;
-$color-main: #f39c12;
+$color-main: #fed136;
 $color-light: #7f8c8d;
 
 .navbar {
@@ -59,6 +59,8 @@ $color-light: #7f8c8d;
 				font-family: $font-header;
 				font-size: 60px;
 				text-transform: uppercase;
+				font-weight: bold;
+				padding: 10px 0;
 			}
 			.btn {
 				background-color: $color-main;
@@ -78,6 +80,7 @@ $color-light: #7f8c8d;
 			font-family: $font-header;
 			font-size: 40px;
 			text-transform: uppercase;
+			font-weight: bold;
 		}
 		p {
 			text-align: center;
@@ -90,7 +93,7 @@ $color-light: #7f8c8d;
 border: 3px solid $color-main;
 color: $color-main;
 font-size: 40px;
-border-radius: 50%;
+border-radius: 55%;
 padding: 15px;
 }
 .card {
@@ -104,6 +107,9 @@ padding: 15px;
 	 }
 }
 /*Portfolio*/
+.portflio {
+	background-color: #f7f7f7;
+}
 .card-img-top {
 	width: 20rem;
 	height: 20rem;

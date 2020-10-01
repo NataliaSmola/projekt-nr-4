@@ -8,7 +8,7 @@
 
 .navbar .navbar-brand {
   font-family: "Playball", cursive;
-  color: #f39c12;
+  color: #fed136;
   font-size: 35px;
   margin-left: 10%;
 }
@@ -21,7 +21,7 @@
 }
 
 .nav-link:hover {
-  background-color: #f39c12;
+  background-color: #fed136;
 }
 
 .carousel-inner .carousel-item {
@@ -64,10 +64,12 @@
   font-family: "Libre Baskerville", serif;
   font-size: 60px;
   text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 0;
 }
 
 .carousel-caption .btn {
-  background-color: #f39c12;
+  background-color: #fed136;
   text-transform: uppercase;
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
@@ -79,7 +81,8 @@
 }
 
 .row {
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .row h2 {
@@ -87,6 +90,7 @@
   font-family: "Libre Baskerville", serif;
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .row p {
@@ -97,10 +101,10 @@
 }
 
 .card-body i {
-  border: 3px solid #f39c12;
-  color: #f39c12;
+  border: 3px solid #fed136;
+  color: #fed136;
   font-size: 40px;
-  border-radius: 50%;
+  border-radius: 55%;
   padding: 15px;
 }
 
@@ -118,6 +122,10 @@
 }
 
 /*Portfolio*/
+.portflio {
+  background-color: #f7f7f7;
+}
+
 .card-img-top {
   width: 20rem;
   height: 20rem;
@@ -160,5 +168,4 @@
     margin: 0;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
