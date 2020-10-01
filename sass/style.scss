@@ -1,6 +1,7 @@
 $font-text: 'Playfair Display', serif;
 $font-title: 'Playball', cursive;
 $font-header: 'Libre Baskerville', serif;
+$font-header-2: 'Archivo Black', sans-serif;
 $color-main: #fed136;
 $color-light: #7f8c8d;
 
@@ -20,7 +21,7 @@ $color-light: #7f8c8d;
 	color: white;
 	font-size: 15px;
 	text-transform: uppercase;
-	font-family: $font-header;
+	font-family: $font-header-2;
 	}
 	.nav-link:hover {
 		background-color: $color-main;
@@ -93,8 +94,10 @@ $color-light: #7f8c8d;
 border: 3px solid $color-main;
 color: $color-main;
 font-size: 40px;
-border-radius: 55%;
-padding: 15px;
+border-radius: 50%;
+width: 80px;
+height: 80px;
+line-height: 70px;
 }
 .card {
 	border-style: none;
@@ -105,6 +108,16 @@ padding: 15px;
 		 font-size: 15px;
 		 color: $color-light;
 	 }
+}
+.card::before {
+	border: 1px solid blue;
+	content: "";
+	position: absolute;
+	top: 100%;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
 }
 /*Portfolio*/
 .portflio {
