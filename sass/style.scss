@@ -8,9 +8,6 @@ $color-light: #7f8c8d;
 .navbar {
 	position: absolute;
 }
-.navbar-toggler-icon {
-	background-color: white;
-}
 .navbar .navbar-brand {
 	font-family: $font-title;
 	color: $color-main;
@@ -101,6 +98,7 @@ line-height: 70px;
 }
 .card {
 	border-style: none;
+
 	 h5 {
 		 font-family: $font-header;
 	 }
@@ -109,15 +107,37 @@ line-height: 70px;
 		 color: $color-light;
 	 }
 }
-.card::before {
-	border: 1px solid blue;
+.card-portfolio {
+	position: relative;
+}
+.card-portfolio::before {
 	content: "";
 	position: absolute;
+	left: 0;
 	top: 100%;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0, 0, 0, 0.6);
 	z-index: 1;
+	transition: all 0.5s;
+}
+.card-portfolio:hover::before {
+top: 0%;
+}
+.card-img-overlay p {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: $font-header;
+	color: rgb(212,175,55);
+	border: 2px solid rgb(212,175,55);
+	display: none;
+	transition: all 0.9s;
+	z-index: 999;
+}
+.card-img-overlay:hover p {
+	display: block;
+	position: absolute;
+	z-index: 999;
 }
 /*Portfolio*/
 .portflio {
@@ -181,7 +201,5 @@ line-height: 70px;
 	text-align: center;
 	padding: 20px;
 	border-bottom: 1px solid $color-light;
-
 }
-
 }

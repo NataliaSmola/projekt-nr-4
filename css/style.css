@@ -2,10 +2,6 @@
   position: absolute;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
-
 .navbar .navbar-brand {
   font-family: "Playball", cursive;
   color: #fed136;
@@ -123,15 +119,41 @@
   color: #7f8c8d;
 }
 
-.card::before {
-  border: 1px solid blue;
+.card-portfolio {
+  position: relative;
+}
+
+.card-portfolio::before {
   content: "";
   position: absolute;
+  left: 0;
   top: 100%;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1;
+  transition: all 0.5s;
+}
+
+.card-portfolio:hover::before {
+  top: 0%;
+}
+
+.card-img-overlay p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  display: none;
+  transition: all 0.9s;
+  z-index: 999;
+}
+
+.card-img-overlay:hover p {
+  display: block;
+  position: absolute;
+  z-index: 999;
 }
 
 /*Portfolio*/
