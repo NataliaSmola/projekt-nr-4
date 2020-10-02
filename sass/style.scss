@@ -132,12 +132,12 @@ top: 0%;
 	border: 2px solid rgb(212,175,55);
 	display: none;
 	transition: all 0.9s;
-	z-index: 999;
+	z-index: 99;
 }
 .card-img-overlay:hover p {
 	display: block;
 	position: absolute;
-	z-index: 999;
+	z-index: 100;
 }
 /*Portfolio*/
 .portflio {
