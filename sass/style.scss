@@ -124,7 +124,7 @@ line-height: 70px;
 .card-portfolio:hover::before {
 top: 0%;
 }
-.card-img-overlay p {
+.card-img-overlay .text {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: $font-header;
@@ -134,7 +134,7 @@ top: 0%;
 	transition: all 0.9s;
 	z-index: 99;
 }
-.card-img-overlay:hover p {
+.card:hover .text {
 	display: block;
 	position: absolute;
 	z-index: 100;
