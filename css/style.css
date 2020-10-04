@@ -123,20 +123,21 @@
   position: relative;
 }
 
-.card-portfolio::before {
-  content: "";
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
-  left: 0;
-  top: 100%;
+  opacity: 0;
+  top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  left: 0;
+  height: 100%;
+  width: 100%;
   transition: all 0.5s;
 }
 
-.card-portfolio:hover::before {
-  top: 0%;
+.card-portfolio:hover .card-img-overlay {
+  opacity: 1;
 }
 
 .card-img-overlay .text {
@@ -145,15 +146,8 @@
   font-family: "Libre Baskerville", serif;
   color: #d4af37;
   border: 2px solid #d4af37;
-  display: none;
-  transition: all 0.9s;
+  transition: all 0.5s;
   z-index: 99;
-}
-
-.card:hover .text {
-  display: block;
-  position: absolute;
-  z-index: 100;
 }
 
 /*Portfolio*/
