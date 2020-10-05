@@ -4,6 +4,7 @@ $font-header: 'Libre Baskerville', serif;
 $font-header-2: 'Archivo Black', sans-serif;
 $color-main: #fed136;
 $color-light: #7f8c8d;
+$color-gold: rgb(212,175,55);
 
 .navbar {
 	position: absolute;
@@ -16,9 +17,10 @@ $color-light: #7f8c8d;
 	}
 .navbar .nav-link {
 	color: white;
-	font-size: 15px;
+	font-size: 12px;
 	text-transform: uppercase;
-	font-family: $font-header-2;
+	font-family: $font-header;
+
 	}
 	.nav-link:hover {
 		background-color: $color-main;
@@ -129,8 +131,8 @@ line-height: 70px;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: $font-header;
-	color: rgb(212,175,55);
-	border: 2px solid rgb(212,175,55);
+	color: $color-gold;
+	border: 2px solid $color-gold;
 	transition: all 0.5s;
 	z-index: 99;
 }
@@ -196,5 +198,8 @@ line-height: 70px;
 	text-align: center;
 	padding: 20px;
 	border-bottom: 1px solid $color-light;
+	margin: 0 auto;
+	width: 100%;
 }
+
 }

@@ -11,9 +11,9 @@
 
 .navbar .nav-link {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .nav-link:hover {
@@ -219,6 +219,8 @@
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #7f8c8d;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
