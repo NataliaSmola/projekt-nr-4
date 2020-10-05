@@ -1,3 +1,4 @@
+/*Navbar*/
 .navbar {
   position: absolute;
 }
@@ -20,6 +21,7 @@
   background-color: #fed136;
 }
 
+/*Carousel*/
 .carousel-inner .carousel-item {
   height: 100vh;
   min-height: 300px;
@@ -76,6 +78,7 @@
   background-color: black;
 }
 
+/*Services*/
 .row {
   -ms-flex-pack: center;
       justify-content: center;
@@ -119,6 +122,7 @@
   color: #7f8c8d;
 }
 
+/*Portfolio*/
 .card-portfolio {
   position: relative;
 }
@@ -150,7 +154,6 @@
   z-index: 99;
 }
 
-/*Portfolio*/
 .portflio {
   background-color: #f7f7f7;
 }
@@ -199,6 +202,7 @@
   font-size: 15px;
 }
 
+/*Media Queries*/
 @media (max-width: 767px) {
   .footer ul {
     max-width: 100%;
@@ -215,7 +219,7 @@
     font-size: 30px;
   }
   .nav-link {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #7f8c8d;
